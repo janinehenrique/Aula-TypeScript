@@ -4,26 +4,10 @@ import { createRoot } from 'react-dom/client';
 
 import App from './App';
 
-const rootElement = document.getElementById('root');
-const root = createRoot(rootElement);
+const root = createRoot(document.getElementById('app'));
 
 root.render(
   <StrictMode>
     <App />
   </StrictMode>
 );
-
-
-
-
-
-
-
-
-export default function Formulario() {
-  return (
-    <div>
-      <form></form>
-    </div>
-  );
-}

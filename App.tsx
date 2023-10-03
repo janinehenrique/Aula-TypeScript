@@ -1,13 +1,15 @@
 import * as React from 'react';
 import './style.css';
-import Botao from './components/Botao'
+import Botao from './components/Botao';
+import Formulario from './components/Formulario/formulario';
 
-export default function App() {
+const App = () => {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <Formulario />
       <Botao />
     </div>
   );
-}
+};
+
+export default App;

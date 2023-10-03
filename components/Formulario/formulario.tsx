@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function formulario() {
+const Formulario = () => {
   return (
     <div>
       <form>
@@ -34,5 +34,7 @@ export default function formulario() {
         </div>
       </form>
     </div>
-  );
+  )
 }
+
+export default formulario;
